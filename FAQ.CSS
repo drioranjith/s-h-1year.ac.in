@@ -40,7 +40,7 @@ body{
   font-family: Lato;   
   font-weight: 400;
   font-size: 19px;
-  -webkit-transition : text-indent 0.1s;
+ 
   text-indent: 20px;
   color: #333;
 }
@@ -84,7 +84,7 @@ body{
   transition: -webkit-transform 0.8s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ 
   border-top: 2px solid rgba(0, 0, 0, 0.33);
   border-right: 2px solid rgba(0, 0, 0, 0.33);
   float: right;
@@ -115,7 +115,7 @@ body{
   display: block;
   transition: height 0.5s;
   height: 60px;
-  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
 }
 
 ::-webkit-scrollbar {
